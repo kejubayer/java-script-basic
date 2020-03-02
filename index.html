@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <p id="demo" class="demo">A Paragraph.</p>
+
+    <p>JavaScript code blocks are written between { and }</p>
+
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <p id="demo1" class="demo"></p>
+    <p id="demo2" class="demo"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Pharagraph Changed !";
+            document.getElementById("demo1").innerHTML = "Hello Dolly!";
+            document.getElementById("demo2").innerHTML = "How are you?";
+        }
+    </script>
+</body>
+
+</html>
